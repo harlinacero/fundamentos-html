@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>Inicio</title>
+	<title>Educación</title>
 </head>
 <body>
 <header>
@@ -14,22 +14,62 @@
 </nav>
 <section>
 		<h2>Educación</h2>
-		<img src="images/foto.jpg" alt="Logo" width="150px" border="soid 1px">	
-		<h2>Perfil</h2>
-		<p>Desarrollador de Software con un año y medio de experiencia en construcción de aplicaciones Web bajo la metodología SCRUM. 
-		He participado en el ciclo de vida completo de proyectos de desarrollo de software con la oportunidad de aportar ideas y soluciones que cumplen y responden a las necesidades del cliente.
-		Poseo capacidad de Liderazgo y trabajo en equipo, inquieto por adquirir nuevos conocimientos de forma autodidacta y buscar solución a los diferentes problemas. Soy responsable, proactivo, respetuoso y honesto. 
-		Me adapto con facilidad a las nuevas situaciones y me preocupo por el perfeccionamiento en el trabajo.</p>
-		
-		<br>
-		<h3>Idiomas</h3>
-		<ul>
-			<li>Español - Hablo, Leo, Escribo</li>
-			<li>Inglés - Leo, Escribo</li>
-			<li>Italiano - Leo </li>
-			<li>Francés -Leo </li>
-		</ul>
+		<table border=1>
+			<thead>
+				<tr>
+					<th>Año </th>
+					<th>Institución</th>
+					<th>Lugar</th>
+					<th>¿Culminó?</th>
+				</tr>				
+			</thead>
+			<tbody>
+				<tr>
+					<td>2007</td>
+					<td>Colegio Ricardo Gonzalez</td>
+					<td>Subachoque</td>
+					<td>Si</td>
+				</tr>
+				<tr>
+					<td>2012</td>
+					<td>Universidad Católica Luis Amigó</td>
+					<td>Bogotá</td>
+					<td>Si</td>
+				</tr>
+				<tr>
+					<td>2018</td>
+					<td>Universidad Konrad Lorenz</td>
+					<td>Bogotá</td>
+					<td>Si</td>
+				</tr>
+			</tbody>
+		</table>
 </section>
+<section>
+	<form>
+		<h2>Agregrar Estidoos</h2>
+		<div>
+			<p>Año: <select id="anio">
+				<option value="2010">2010</option>
+				<option value="2011">2011</option>
+				<option value="2012">2012</option>
+				<option value="2013">2013</option>
+				<option value="2014">2014</option>
+				<option value="2015">2015</option>
+				<option value="2016">2016</option>
+				<option value="2017">2017</option>
+				<option value="2018">2018</option>
+			</select></p><br>
+			<p>Institución:
+			<input type="text" id="institucion" name="institucion" width="200px"><br></p>
+			<p>Lugar:
+			<input type="text" id="lugar" name="lugar" width="200px"></p><br><br>
+			<p><input type="submit" name="enviar" id="enviar" value="Enviar"></p>
+		</div>
+	</form>
+</section>
+<br>
+<br>
 <footer>
 	<h2>Contacto:</h2>
 	<p><b>Correo:</b> harlinacero@gmail.com</p>
